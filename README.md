@@ -39,6 +39,8 @@ sha256	⚠️ Common	Not safe for password storage
 ntlm	⚠️ Windows	Obsolete, crackable
 bcrypt	✅ Recommended	Strong and modern
 
+https://ibb.co/1JTc3jNQ
+
 📊 Example Output
 yaml
 Kodu kopyala
@@ -99,3 +101,5 @@ Cybersecurity & Programming Student — Berlin, 2025
 
 📄 License
 MIT License
+
+
