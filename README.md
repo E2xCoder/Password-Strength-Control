@@ -1,11 +1,11 @@
-# 🔐 Password Strength Analyzer
+# Password Strength Analyzer
 
 Simple password strength analysis tool for cybersecurity learners and professionals.  
 Checks password complexity and gives real-time feedback on strength and hash security.
 
 ---
 
-## ⚙️ Features
+## Features
 - Detects password strength: **WEAK / MODERATE / STRONG**
 - Checks character diversity (lowercase, uppercase, digits, special)
 - Supports hash types: **MD5, SHA-256, NTLM, bcrypt**
@@ -14,7 +14,7 @@ Checks password complexity and gives real-time feedback on strength and hash sec
 
 ---
 
-## 📦 Installation
+## Installation
 ```bash
 # Clone the repository
 git clone https://github.com/E2xCoder/Password-Strength-Control.git
@@ -22,7 +22,7 @@ cd Password-Strength-Control
 
 # Install required package
 pip install colorama
-🚀 Usage
+ Usage
 bash
 Kodu kopyala
 python3 crack_calculator.py "<password>" "<hash_type>"
@@ -41,7 +41,7 @@ bcrypt	✅ Recommended	Strong and modern
 
 https://ibb.co/1JTc3jNQ
 
-📊 Example Output
+Example Output
 yaml
 Kodu kopyala
 ============================================================
@@ -69,13 +69,13 @@ Character Variety:
    Good for important accounts.
 
 ✅ bcrypt: Good choice for password hashing.
-🧠 Strength Rules
+Strength Rules
 Strength	Criteria
 WEAK	< 8 chars or < 3 character types
 MODERATE	8–12 chars with 2–3 types, or 12+ chars with < 3 types
 STRONG	≥12 chars with 3+ character types
 
-🔒 Security Tips
+Security Tips
 Always use bcrypt or Argon2 for password hashing.
 
 Avoid MD5, SHA-1, NTLM for password storage.
@@ -86,7 +86,7 @@ Consider using a password manager.
 
 Enable 2FA/MFA whenever possible.
 
-🚧 Future Plans
+Future Plans
 Add GPU cracking time estimation
 
 Add Argon2 and PBKDF2 support
@@ -95,11 +95,11 @@ Integrate password breach API
 
 Add web version and batch mode
 
-🧑‍💻 Author
+Author
 Emre Eren (E2xCoder)
 Cybersecurity & Programming Student — Berlin, 2025
 
-📄 License
+License
 MIT License
 
 
