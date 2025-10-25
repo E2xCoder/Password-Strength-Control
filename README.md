@@ -15,19 +15,17 @@ Checks password complexity and gives real-time feedback on strength and hash sec
 ---
 
 ## Installation
-```bash
+```
 # Clone the repository
 git clone https://github.com/E2xCoder/Password-Strength-Control.git
 cd Password-Strength-Control
 
 # Install required package
 pip install colorama
- Usage
-bash
+
 
 python3 crack_calculator.py "<password>" "<hash_type>"
 Example Commands
-bash
 
 python3 crack_calculator.py "password" "md5"
 python3 crack_calculator.py "MyP@ssw0rd!2024" "bcrypt"
