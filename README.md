@@ -24,11 +24,11 @@ cd Password-Strength-Control
 pip install colorama
  Usage
 bash
-Kodu kopyala
+
 python3 crack_calculator.py "<password>" "<hash_type>"
 Example Commands
 bash
-Kodu kopyala
+
 python3 crack_calculator.py "password" "md5"
 python3 crack_calculator.py "MyP@ssw0rd!2024" "bcrypt"
 python3 crack_calculator.py "abc123" "sha256"
@@ -42,8 +42,7 @@ bcrypt	✅ Recommended	Strong and modern
 https://ibb.co/1JTc3jNQ
 
 Example Output
-yaml
-Kodu kopyala
+
 ============================================================
 PASSWORD STRENGTH ANALYSIS
 ============================================================
